@@ -12,6 +12,12 @@
     grid-row: 2/4;
 }
 
+.categorias__lista{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
 @media (min-width: 720px) {
     .banner img:nth-child(1) {
         grid-column: 1/2;
